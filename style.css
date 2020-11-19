@@ -1,0 +1,340 @@
+/**{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.promo {
+	background: url(../img/bg/main_bg.jpg);
+	height: 400px;
+	padding-top: 19px;
+}
+
+
+.logo_img {
+width: 41.5px;
+height: 35.5px;
+display: block;
+margin: 0 auto;
+}
+
+
+.promo .logo_text {
+font-family: Roboto;
+font-size: 7.5px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+text-transform: uppercase;
+margin-top: 7px;
+}
+
+h1.title {
+font-family: Roboto;
+font-size: 20.5px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
+color: #f9bf3b;
+margin-top: 26.5px;
+text-transform: uppercase;
+}
+
+h2.title_big {
+font-family: Roboto;
+font-size: 40px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+text-transform: uppercase;
+margin-top: 10.5px;
+}
+
+h2.title {
+font-family: Roboto;
+font-size: 20.5px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
+color: #f9bf3b;
+text-transform: uppercase;
+margin-top: 15px;
+}
+
+.promo_text {
+font-family: Roboto;
+font-size: 10.5px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.33;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+margin: 0 auto;
+margin-top: 11.5px;
+width: 557px;
+height: 38px;
+
+}
+
+.promo_text span {
+font-weight: bold;
+color: #f9bf3b;
+}
+
+#promo_btn {
+display: block;
+margin: 0 auto;
+margin-top: 36.5px;
+width: 156.5px;
+height: 36px;
+box-shadow: inset 0px -2.5px 0 0 rgba(0, 0, 0, 0.18);
+border: solid 2px rgba(0, 0, 0, 0.23);
+background-image: linear-gradient(to top, #2798b9, #3ab6da);
+}
+
+.arrow .arrow_text {
+font-family: Roboto;
+font-size: 7.5px;
+font-weight: 100;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+text-align: center;
+text-transform: uppercase;
+}
+
+.arrow .arrow_icon {
+	display: block;
+	margin: 0 auto;
+width: 15px;
+height: 9.5px;
+margin-top: 6px;
+}
+
+.arrow {
+	margin-top: 36px;
+}
+
+.waiting {
+min-height: 302px;
+background-color: #efefef;
+padding: 42.5px 0 37.5px 0;
+}
+
+.waiting .waiters_header, .finish .finish_header {
+	height: 13px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.4;
+letter-spacing: normal;
+text-align: center;
+color: #252525;
+text-transform: uppercase;
+}
+
+.finish .finish_header {
+	color: #fff;
+}
+
+.waiting .waiters_line, .finish .finish_line {
+display: block;
+margin: 0 auto;
+width: 108.5px;
+height: 2px;
+background-color: #f9bf3b;
+margin-top: 9px;
+}
+
+
+.waiting .waiters_subheader {
+font-family: Roboto;
+font-size: 11.5px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.87;
+letter-spacing: normal;
+text-align: center;
+color: #4a4a4a;
+margin-top: 8.5px;
+}
+
+.waiting .waiters_wrapper {
+display: flex;
+justify-content: space-around;
+margin-top: 22.5px;
+}
+
+.waiting .waiters_wrapper .waiters_item {
+width: 171px;
+text-align: center;
+}
+
+.waiting .waiters_wrapper .waiters_item .waiters_icon {
+	width: 100%;
+}
+
+.waiters_text2, .waiters_text1, .waiters_text3 {
+font-family: Roboto;
+font-size: 7.5px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.4;
+letter-spacing: normal;
+text-align: center;
+color: #4a4a4a;
+margin-top: 16.5px;
+}
+
+.optimization {
+	min-height: 275px;
+	padding: 51px 0 53.5px 0;
+}
+
+.optimization_header {
+margin-left: 465.5px;
+font-family: Roboto;
+font-size: 15px;
+font-weight: 900;
+font-stretch: normal;
+font-style: normal;
+line-height: 0.4;
+letter-spacing: normal;
+text-align: left;
+color: #299cbd;
+text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+margin-top: 12.5px;
+margin-left: 465.5px;
+width: 375px;
+font-family: Roboto;
+font-size: 8.5px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.59;
+color: #4a4a4a;
+}
+
+.optimization .optimization_text span {
+	font-weight: bold;
+	font-family: Roboto;
+}
+
+.optimization .optimization_img {
+position: absolute;
+width: 434px;
+height: 251px;
+}
+
+.finish {
+	min-height: 223.5px;
+	padding: 43px 219px 39.5px 217px;
+	background: url(..//img/bg/bg_2.jpg) center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+	margin-top: 21px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+	width: 102px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+width: 57.5px;
+height: 57.5px;
+background-color: #b4e2ff;
+border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_round .finish_icon {
+	max-width: 33px;
+	max-height: 32px;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+margin-top: 12.5px;
+text-align: center;
+ font-family: Roboto;
+font-size: 8.5px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.18;
+letter-spacing: normal;
+text-align: center;
+color: #efefef;
+}
